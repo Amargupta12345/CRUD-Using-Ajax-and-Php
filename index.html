@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="alert-info text-center mb-5 p-3">
+            Data Adding having multiple option to Secure a Data
+        </h1>
+        <div class="row">
+            <form class="col-sm-5" id="myform">
+                <h3 class="alert-warning text-center p-2">Add Details</h3>
+                <div>
+                    <input type="text" class="form-control" style="display:none;" id="studid">
+                    <label for="nameid" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="nameid">
+                </div>
+                <div>
+                    <label for="emailid" class="form-label">email</label>
+                    <input type="email" class="form-control" id="emailid">
+                </div>
+                <div>
+                    <label for="passwordid" class="form-label">City</label>
+                    <input type="text" class="form-control" id="passwordid">
+                </div>
+                <div class="mt-5">
+                    <button type="submit" id="btnadd" class="btn btn-primary">save</button>
+                </div>
+                <div id="msg"></div>
+            </form>
+
+            <div class="col-sm-7 text-center">
+                <h3 class="alert-warning p-2">Infromation of Databases</h3>
+                <table class= "table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/ajaxscript.js"></script>
+</body>
+
+</html>
