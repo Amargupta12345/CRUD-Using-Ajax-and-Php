@@ -26,9 +26,9 @@ function showData() {
           x[i].email +
           "</td><td>" +
           x[i].password +
-          "</td><td> <button class ='btn btn-warning btn-sm btn-edit' data-sid =" +
+          "</td><td> <button class ='btn btn-dark  btn-sm btn-edit' data-sid =" +
           x[i].id +
-          "> Edit </button> <button class ='btn btn-danger btn-sm btn-del' data-sid =" +
+          "> Edit </button> <button class ='btn btn-dark btn-sm btn-del' data-sid =" +
           x[i].id +
           "> Delete </button> </td> </tr>";
       }
